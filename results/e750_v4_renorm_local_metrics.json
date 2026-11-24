@@ -1,0 +1,38 @@
+{
+  "meta": {
+    "task": "T2",
+    "setting": "embryo",
+    "target_source": "/Users/rohanjoshi/Desktop/virtual-embryo-ot/data/E7.5_local_498.h5ad",
+    "reference_defaulted_to_input": false,
+    "truth_cells": 11665,
+    "prediction_cells": 4000,
+    "genes": 498
+  },
+  "metrics": {
+    "de_score": 0.1774,
+    "de_direction": 0.4455,
+    "energy_distance": 4.42105,
+    "mmd_u": 0.11187,
+    "variogram": 0.152635,
+    "d2_shape": 0.05743,
+    "sliced_wasserstein": 0.07451,
+    "occupancy_dice": 0.7317,
+    "size_fidelity": 0.9152,
+    "scale_ratio": 0.9563,
+    "scale_log_ratio": -0.0447,
+    "count_log_ratio": -1.0703,
+    "neighborhood_mmd": 0.2158,
+    "pb_rel_err": 0.701,
+    "library_size_ratio": 1.0,
+    "variance_ratio": 0.645,
+    "composition_JSD": 0.1442,
+    "pseudobulk_pearson": 0.8606,
+    "morans_I_agreement": 0.6343,
+    "_de_raw": 0.5526,
+    "_de_chance": 0.4561,
+    "_n_up": 102,
+    "_n_dn": 12,
+    "_sw_flip_spread": 0.0159,
+    "_dice_voxel_over_nn": 7.1
+  }
+}
